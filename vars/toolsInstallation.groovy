@@ -1,6 +1,6 @@
+import jenkins.model.*
 
 def call(){
-import jenkins.model.*
 
 println "Adding an auto installer for Maven 3.3.9"
 
@@ -15,4 +15,4 @@ mavenPluginExtension.save()
 
 println "OK - Maven auto-installer (from Apache) added for 3.3.9"
 }
-}
+
