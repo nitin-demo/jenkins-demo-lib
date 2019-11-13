@@ -1,4 +1,4 @@
-package com.kss.builder
+package com.kss.builder;
 
 
 def lastCommit()
