@@ -6,7 +6,7 @@ def call() {
 
 
 def getcommit(){
-    def Utils = new Utils()
+    def Utils = new Utils(this)
     def value = Utils.lastCommit()
     return value
 }
